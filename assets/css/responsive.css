@@ -1,0 +1,46 @@
+/* Navigation
+---------------------------------*/
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .navbar-toggler i {
+        color: black;
+    }
+    button {
+        cursor: default;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 0;
+        padding-left: 20px;
+        padding-top: 10px;
+        top: 0;
+    }
+    .bord {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(128, 128, 128, 0.2);
+    }
+    .navbar ul li {
+        padding: 5px;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav li {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .else-card:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@media (max-width: 1199.98px) {}
