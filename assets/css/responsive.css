@@ -30,6 +30,26 @@
         padding: 5px;
         text-align: center !important;
     }
+    .navbar-brand {
+        top: 3px;
+    }
+    .navbar-brand span {
+        font-size: 20px;
+    }
+    .navbar-brand p {
+        font-size: 14px;
+    }
+    .head h1 {
+        font-size: 40px;
+    }
+    .head p {
+        font-size: 14px;
+    }
+    .else-card,
+    .else-card:hover {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 991.98px) {
