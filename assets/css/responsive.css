@@ -1,19 +1,16 @@
-/* Navigation
----------------------------------*/
-
-@media (max-width: 550px) { 
+@media (max-width: 550px) {
     .portfolio .else {
         top: 45px;
     }
-    
+
     .portfolio .else:after {
         margin-top: 5px;
     }
-    
+
     .skills .else {
         top: 50px;
     }
-    
+
     .background-text {
         font-size: 100px;
         letter-spacing: 0;
@@ -79,7 +76,7 @@
     .motivation h2 {
         font-size: 40px;
     }
-    
+
     .hire h5 {
         padding-top: 50px;
     }
@@ -97,3 +94,12 @@
 }
 
 @media (max-width: 1199.98px) {}
+
+@media (max-width: 342px) {
+    .background-text {
+        display: none;
+    }
+    html {
+        overflow-x: hidden;
+    }
+}
