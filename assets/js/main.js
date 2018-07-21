@@ -1,3 +1,4 @@
+"use strict";
 $(document).ready(function () {
     $('#nav-icon3').click(function (e) {
         let collapse = $(".navbar-collapse");
@@ -11,5 +12,13 @@ $(document).ready(function () {
                 $(this).addClass('open');
             }
         }
+    });
+
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top - 60
+        }, 800);
     });
 });

@@ -18,7 +18,7 @@
 
 <body>
 
-    <header class="head">
+    <header id="home" class="head">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -27,7 +27,7 @@
                     </figure>
                     <h1 class="anim-b">Welcome to my github</h1>
                     <p class="anim-b">if you want to learn more about me and my skills please click read more</p>
-                    <a href="#" class="button anim-b">Read More</a>
+                    <a href="#about" class="button anim-b">Read More</a>
                 </div>
             </div>
         </div>
@@ -45,17 +45,17 @@
         </button>
         <div class="collapse navbar-collapse bord">
             <ul class="navbar-nav mr-auto">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#header">About me</a></li>
-                <li><a href="#header">Skills</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
             </ul>
         </div>
         <div class="small-logo">
-            <a class="navbar-brand d-flex flex-row justify-content-center align-items-center"><span>Michalski</span><p><i class="fab fa-connectdevelop"></i> Dev</p></a>
+            <a class="navbar-brand d-flex flex-row justify-content-center align-items-center"><span>Michalski</span><p><i class="fas fa-code"></i> Dev</p></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
-                <li><a href="#header">Portfolio</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#header">Home</a></li>
                 <li><a href="#header">Home</a></li>
             </ul>
@@ -64,7 +64,7 @@
     <!--main-nav-end-->
 
     <!--About-me-start-->
-    <section class="about-me">
+    <section id="about" class="about-me">
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
@@ -113,7 +113,7 @@
     <!--About-me-end-->
 
     <!--Skills-start-->
-    <section class="skills">
+    <section id="skills" class="skills">
         <div class="container">
             <div class="row padd-50">
                 <div class="anim-b col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 d-flex justify-content-center align-items-center">
@@ -122,65 +122,68 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
                     <div class="skills-desc">
                         <h1 class="anim-r">Knowledge</h1>
-                        <h2 class="anim-r">In this section you will be able to read about my skills. The level of my skills has been described in a way which in my opinion is right.</h2>
+                        <h2 class="anim-r">In this section you will be able to read about my skills. The level of my skills has been described in a way that I think is right.</h2>
                     </div>
                     <div class="featured-box d-flex justify-content-center align-items-center">
                         <div class="anim-r col-1 d-flex flex-column justify-content-center align-items-center"><i class="fab fa-html5"></i>
-                            <div class="anim-r d-flex justify-content-center align-items-center">HTML5</div>
+                            <div class="anim-r d-flex justify-content-center align-items-center small">HTML5</div>
                         </div>
                         <div class="anim-r col-11"><span>Very good knowledge of the Hypertext Markup Language and also knowledge of good practices.</span></div>
                     </div>
                     <div class="featured-box d-flex justify-content-center align-items-center">
                         <div class="anim-r col-1 d-flex flex-column justify-content-center align-items-center"><i class="fab fa-css3"></i>
-                            <div class="anim-r d-flex justify-content-center align-items-center">CSS3</div>
+                            <div class="anim-r d-flex justify-content-center align-items-center small">CSS3</div>
                         </div>
                         <div class="anim-r col-11"><span>Very good knowledge of Cascading Style Sheets language that describes the style of an HTML document.</span></div>
                     </div>
                     <div class="featured-box d-flex justify-content-center align-items-center">
                         <div class="anim-r col-1 d-flex flex-column justify-content-center align-items-center"><i class="fab fa-js-square"></i>
-                            <div class="anim-r d-flex justify-content-center align-items-center">JavaScript</div>
+                            <div class="anim-r d-flex justify-content-center align-items-center small">JavaScript</div>
                         </div>
                         <div class="anim-r col-11"><span>Very good knowledge - among others: Scope, Hoisting , ES6, The rules of "this" binding, Prototypes and Inheritance , 'new' keywords, Asynchronous JS , Higher Order Functions  and more. </span></div>
                     </div>
                     <div class="featured-box d-flex justify-content-center align-items-center">
                         <div class="anim-r col-1 d-flex flex-column justify-content-center align-items-center"><i class="fab fa-node"></i>
-                            <div class="anim-r d-flex justify-content-center align-items-center">Node.js</div>
+                            <div class="anim-r d-flex justify-content-center align-items-center small">Node.js</div>
                         </div>
                         <div class="anim-r col-11"><span>Good knowledge which let me building RESTful web services</span></div>
                     </div>
                     <div class="featured-box d-flex justify-content-center align-items-center">
                         <div class="anim-r col-1 d-flex flex-column justify-content-center align-items-center"><i class="fab fa-angular"></i>
-                            <div class="anim-r d-flex justify-content-center align-items-center text-nowrap ">Angular 2+</div>
+                            <div class="anim-r d-flex justify-content-center align-items-center text-nowrap small">Angular 2+</div>
                         </div>
                         <div class="anim-r col-11"><span>Good knowledge of this framework which lets me create a Angular 2+ projects with Bootstrap 4, node.js(express.js), mongodb for performing the CRUD operation and more(you will see in my portfolio).
                         </span></div>
                     </div>
                     <div class="featured-box d-flex justify-content-center align-items-center">
                         <div class="anim-r col-1 d-flex flex-column justify-content-center align-items-center"><i class="fab fa-github"></i>
-                            <div class="anim-r d-flex justify-content-center align-items-center">Github</div>
+                            <div class="anim-r d-flex justify-content-center align-items-center small">Github</div>
                         </div>
                         <div class="anim-r col-11"><span>Good knowledge of version control system </span></div>
                     </div>
                     <div class="featured-box d-flex justify-content-center align-items-center">
                         <div class="anim-r col-1 d-flex flex-column justify-content-center align-items-center"><i class="fas fa-database"></i>
-                            <div class="anim-r d-flex justify-content-center align-items-center">MongoDb</div>
+                            <div class="anim-r d-flex justify-content-center align-items-center small text-center">MongoDb<br>SQL</div>
                         </div>
                         <div class="anim-r col-11"><span>Good knowledge</span></div>
                     </div>
                     <div class="featured-box d-flex justify-content-center align-items-center">
                         <div class="anim-r col-1 d-flex flex-column justify-content-center align-items-center"><i class="fab fa-npm"></i>
-                            <div class="anim-r d-flex justify-content-center align-items-center">Npm</div>
+                            <div class="anim-r d-flex justify-content-center align-items-center small">Npm</div>
                         </div>
                         <div class="anim-r col-11"><span>Good knowledge of package manager for Node.js packages, or modules</span></div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 d-flex justify-content-center">
+                <div class="intro col-12 d-flex justify-content-center">
                     <h1 class="anim-b else">What else?</h1>
+                    <span class="background-text anim-b">
+                        More
+                    </span>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center">
-                    <div class="else-card col-12">
+                    <div class="else-card col-12 d-flex flex-column justify-content-center align-items-center anim-b">
                         <div class="anim-b else-card-logo">
                             <img src="assets/image/cover.jpg" alt="">
                         </div>
@@ -191,7 +194,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center">
-                    <div class="else-card col-12">
+                    <div class="else-card col-12 d-flex flex-column justify-content-center align-items-center anim-b">
                         <div class="anim-b else-card-logo">
                             <img src="assets/image/36768561-e10bba90-1c0d-11e8-85b5-f9d1e605cc8a.png" alt="">
                         </div>
@@ -202,7 +205,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center">
-                    <div class="else-card col-12">
+                    <div class="else-card col-12 d-flex flex-column justify-content-center align-items-center anim-b">
                         <div class="anim-b else-card-logo">
                             <img src="assets/image/Bootstrap-Logo.png" alt="">
                         </div>
@@ -218,25 +221,29 @@
     <!--Skills-end-->
 
     <!--Portfolio-start-->
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
-                <div class="portfolio-word">
-                    <h1 class="anim-b">Portfolio</h1>
+                <div class="intro col-12 d-flex justify-content-center">
+                    <h1 class="anim-b else">Portfolio</h1>
+                    <span class="background-text anim-b">
+                        Work
+                    </span>
                 </div>
                 <div class="container">
                     <div class="row project-card anim-b">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-image d-flex justify-content-center align-items-center anim-b">
-                            <img src="assets/image/Macbook-PNG-Picture.png" alt="">
+                            <img src="assets/image/macbookgrey_front.png" alt="">
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-info">
-                            <h3 class="anim-li">MOBILE AND DESKTOP APP FOR LONDON HOSTEL STORE</h3>
-                            <p class="anim-li">Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye. Voice tried known to as my to. Though wished merits or be. Alone visit use these smart rooms ham.</p>
+                            <h3 class="anim-li">Responsive shop site with blog and CMS system</h3>
+                            <p class="anim-li"><span class="anim-li">This project was made by me in 100%. It doesn't come from any course or tutorial. Now I will introduce a concise description of the possibilities:</span><br>
+                                <span class="anim-li">- First of all you can register new account then login in and do some stuff. For example you will able to write a new blog, leave comment or like other blogs. Also you can like comment other people.</span><br><span class="anim-li">- When will you have access to the admin account then you will able to choose which post should be shown on an official blog site </span><br><span class="anim-li">- Only admin have the right to add a new item to the shop</span><br> <span class="anim-li">- You can view your entry as well as edit and delete it.</span><br><span class="anim-li">- You can view your profile add or change image</span><br><span class="anim-li">- And more...</span></p>
                             <p class="stack anim-li">USED STACK:</p>
                             <ul>
                                 <li class="anim-li">Html5</li>
                                 <li class="anim-li">CSS3</li>
-                                <li class="anim-li">Angular 2+</li>
+                                <li class="anim-li">Angular 5</li>
                                 <li class="anim-li">Node.js</li>
                                 <li class="anim-li">MongoDb</li>
                                 <li class="anim-li">Boostrap 4</li>
@@ -244,29 +251,33 @@
                                 <li class="anim-li">Jwt Authentication</li>
                                 <li class="anim-li">Mongoose</li>
                             </ul>
+                            <div class="anim-li project-info-link d-flex flex-column">
+                                <div><i class="fab fa-github"></i> <a href="#">Code</a></div>
+                                <div><i class="fab fa-youtube"></i> <a href="#">Showcase</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="container">
                     <div class="row project-card anim-b">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-image d-flex justify-content-center align-items-center anim-b">
-                            <img src="assets/image/Macbook-PNG-Picture.png" alt="">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-images d-flex justify-content-center align-items-center anim-b">
+                            <img src="assets/image/tracker.png" alt="">
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-info">
-                            <h3 class="anim-li">MOBILE AND DESKTOP APP FOR LONDON HOSTEL STORE</h3>
-                            <p class="anim-li">Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye. Voice tried known to as my to. Though wished merits or be. Alone visit use these smart rooms ham.</p>
-                            <p class="stack anim-li">USED STACK:</p>
-                            <ul>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-info d-flex flex-column justify-content-center align-items-center">
+                            <h3 class="anim-li">JS Issue Tracker</h3>
+                            <p class="anim-li">A simple application (with jquery validation form) by which you will be able to add some kind of issues, choose some option and save in localhost. After that you will see list of this issues and you will can decide whether or not to delete it and also "close" it.</p>
+                            <p class="stack anim-li mr-auto">USED STACK:</p>
+                            <ul class="mr-auto">
                                 <li class="anim-li">Html5</li>
                                 <li class="anim-li">CSS3</li>
-                                <li class="anim-li">Angular 2+</li>
-                                <li class="anim-li">Node.js</li>
-                                <li class="anim-li">MongoDb</li>
+                                <li class="anim-li">JavaScript</li>
+                                <li class="anim-li">jQuery</li>
                                 <li class="anim-li">Boostrap 4</li>
-                                <li class="anim-li">Express.js</li>
-                                <li class="anim-li">Jwt Authentication</li>
-                                <li class="anim-li">Mongoose</li>
                             </ul>
+                            <div class="anim-li project-info-link d-flex flex-column mr-auto">
+                                <div><i class="fab fa-github"></i> <a href="https://github.com/KamilTech/issueTracker.github.io">Code</a></div>
+                                <div><i class="far fa-eye"></i> <a href="https://kamiltech.github.io/issueTracker.github.io/">Demo</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -275,26 +286,73 @@
     </section>
     <!--Portfolio-end-->
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--Motivation-start-->
+    <section class="motivation d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 anim-b">
+                    <h4>Words to live by</h4>
+                    <h2>Don't just aspire to make a living</h2>
+                    <h2>aspire to <span>make a difference</span></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Motivation-end-->
+
+    <!--Hire-start-->
+    <section class="hire">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center align-items-center">
+                    <img src="assets/image/custom-software-development-services.png" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center">
+                    <h5>Interested in my person?</h5>
+                    <h3>Hire me</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facere molestias sapiente quia autem cupiditate adipisci tempore sit incidunt nam laudantium atque dicta voluptas, quod. Soluta earum, voluptatem. Eligendi, fugiat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Hire-end-->
+    
+    <!--footer-end-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                    <h1>Michalski</h1>
+                    <p>© Copyright 2018</p>
+                    <p>Created by Kamil Michalski</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer-end-->
+
+    <!-- jQuery, Popper.js, Bootstrap JS main.js, ScrollReveal.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/ScrollReveal.js"></script>
     <script type="text/javascript">
+        // Configuration for ScrollReveal
         window.sr = ScrollReveal();
         sr.reveal('.anim-r', {
             origin: 'right',
             delay: 200
         });
         sr.reveal('.anim-li', {
-            duration: 350,
+            delay: 500,
             origin: 'right'
-        }, 150);
+        }, 100);
         sr.reveal('.anim-b', {
             origin: 'bottom',
             delay: 200
         });
+
     </script>
 </body>
 
