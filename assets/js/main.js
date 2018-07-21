@@ -1,7 +1,6 @@
-"use strict";
 $(document).ready(function () {
     $('#nav-icon3').click(function (e) {
-        let collapse = $(".navbar-collapse");
+        var collapse = $(".navbar-collapse");
         e.preventDefault();
         if (collapse.hasClass("collapsing")) {
             e.preventDefault();
@@ -21,10 +20,4 @@ $(document).ready(function () {
             scrollTop: $($.attr(this, 'href')).offset().top - 60
         }, 800);
     });
-});
-
-$(window).on('load', function () {
-    setTimeout(function () {
-        $("#loader-wrapper").fadeOut();
-    }, 300);
 });
