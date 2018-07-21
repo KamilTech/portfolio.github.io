@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('#nav-icon3').click(function (e) {
+    $('#nav-icon3').on('click', function (e) {
         var collapse = $(".navbar-collapse");
         e.preventDefault();
         if (collapse.hasClass("collapsing")) {
