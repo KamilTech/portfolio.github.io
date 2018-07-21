@@ -124,7 +124,7 @@ a:active {
 .navbar-brand span {
     font-size: 28px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-brand p {
@@ -216,6 +216,7 @@ button:focus {
 
 .about-me {
     padding-top: 100px;
+    background-color: white;
 }
 
 .about-me-introduction {
@@ -427,7 +428,7 @@ button:focus {
     font-family: 'Open Sans', sans-serif;
     position: absolute;
     top: 0;
-    z-index: 0;
+    z-index: 1;
     text-transform: uppercase;
     width: 100%;
     color: black;
@@ -564,6 +565,9 @@ button:focus {
 .hire {
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-bottom: 225px;
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.8);
 }
 
 .hire img {
@@ -589,20 +593,37 @@ button:focus {
 /* footer
 ---------------------------------*/
 
-footer {
-    -webkit-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.10);
-    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.10);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #fafafa;
-}
-
 footer h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
 footer p {
     font-size: 14px;
-    padding: 0;
     margin: 0;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 180px;
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #355c7d;
+    color: white;
+}
+
+.footer navbar-brand span {
+    font-size: 14px;
+}
+.footer navbar-brand i {
+    color: #f76262;
 }
