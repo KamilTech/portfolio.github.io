@@ -161,7 +161,6 @@ button:focus {
 }
 
 #nav-icon3 span {
-    display: block;
     position: absolute;
     height: 4px;
     width: 100%;

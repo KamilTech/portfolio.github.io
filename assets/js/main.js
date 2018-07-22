@@ -1,6 +1,5 @@
 $(document).ready(function () {
-    var navIcon = document.getElementById('nav-icon3');
-    navIcon.addEventListener("click", function (e) {
+    $('#nav-icon3').on('click', function (e) {
         var collapse = $(".navbar-collapse");
         e.preventDefault();
         if (collapse.hasClass("collapsing")) {
