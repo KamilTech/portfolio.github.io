@@ -9,9 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
@@ -35,35 +32,43 @@
                 </div>
             </div>
         </header>
-        <!--main-nav-start-->
-        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
-            <button id="nav-icon3" class="ml-auto" type="button" data-toggle="collapse" data-target=".collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <div id="nav-icon3">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <div class="small-logo">
+                    <a class="navbar-brand d-flex flex-row justify-content-center align-items-center"><span>Michalski</span><p><i class="fas fa-code"></i> Dev</p></a>
                 </div>
-            </button>
-            <div class="collapse navbar-collapse bord" id="navbarCollapse">
-                <ul class="navbar-nav pad-10 mr-auto">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                </ul>
-            </div>
-            <div class="small-logo">
-                <a class="navbar-brand d-flex flex-row justify-content-center align-items-center"><span>Michalski</span><p><i class="fas fa-code"></i> Dev</p></a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#hire">Hire</a></li>
-                    <li><a href="#header">Home</a></li>
-                </ul>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="icon-bar top-bar"></span>
+                  <span class="icon-bar middle-bar"></span>
+                  <span class="icon-bar bottom-bar"></span>
+                  <span class="sr-only">Toggle navigation</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hire">Hire</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <!--main-nav-end-->
+
 
         <!--About-me-start-->
         <section id="about" class="about-me">
@@ -339,6 +344,9 @@
     <!--footer-end-->
 
     <!-- jQuery, Popper.js, Bootstrap JS main.js, ScrollReveal.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script src="assets/js/ScrollReveal.js"></script>
     <script type="text/javascript">
