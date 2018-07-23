@@ -44,11 +44,7 @@
         padding-top: 10px;
         top: 0;
     }
-    .bord {
-        margin-top: 10px;
-        padding-top: 10px;
-        border-top: 1px solid rgba(128, 128, 128, 0.2);
-    }
+
     main .navbar ul li {
         padding: 5px;
         text-align: center !important;
@@ -79,6 +75,12 @@
 
     .hire h5 {
         padding-top: 50px;
+    }
+    #nav-icon3 {
+        display: block;
+    }
+    .pad-10 {
+        padding-top: 10px;
     }
 }
 

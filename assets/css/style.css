@@ -146,9 +146,14 @@ a:active {
 button:focus {
     outline: none;
 }
-
+button {
+    background-color: white;
+    border: none;
+}
 #nav-icon3 {
-    top: 8px;
+    text-decoration: none;
+    display: none;
+    top: 5px;
     width: 40px;
     height: 40px;
     position: relative;
