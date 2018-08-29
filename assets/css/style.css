@@ -283,6 +283,250 @@ body {
 /* Skills
 ---------------------------------*/
 
+.section-skill {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fafafa;
+}
+
+.theme-after:after {
+    background-color: #d82a2a;
+}
+
+.section-skill-title label {
+    position: relative;
+    color: #292929;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 0px 10px 30px;
+}
+
+.section-skill-title label:after {
+    position: absolute;
+    left: 0;
+    content: "";
+    width: 20px;
+    float: left;
+    height: 2px;
+    top: 10px;
+}
+
+.section-skill-title h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #292929;
+    font-size: 36px;
+    margin: 0;
+    padding: 0 0 25px;
+    letter-spacing: 1px;
+}
+
+.section-skill-title .theme-color {
+    color: #d82a2a;
+}
+
+.section-skill-item {
+    max-height: 180px;
+    min-height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-box-shadow: 0 18px 32px 0 rgba(0,0,0,.03);
+            box-shadow: 0 18px 32px 0 rgba(0,0,0,.03);
+    z-index: 1;
+}
+
+.no-left-border {
+    border-left: none !important;
+}
+
+.border-abso:nth-of-type(odd) .section-skill-item:after {
+    position: absolute;
+    content: "";
+    height: 223px;
+    border: 2px dashed #dbdbdb;
+    border-right: none;
+    top: 49%;
+    width: 50px;
+    left: -15px;
+    z-index: -1;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.border-abso:nth-of-type(even) .section-skill-item:after {
+    position: absolute;
+    content: "";
+    height: 223px;
+    border: 2px dashed #dbdbdb;
+    border-left: none;
+    top: 49%;
+    width: 50px;
+    right: -15px;
+    z-index: -1;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.section-skill-item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.item-name {
+    color: #d82a2a;
+}
+
+.item-name i img {
+    position: relative;
+    max-width: 68.85px;
+    max-height: 68.85px;
+    left: -14px;
+    bottom: -2px;
+    margin: 0;
+    padding: 0;
+}
+
+.item-name i{
+    position: relative;
+    font-size: 36px;
+    margin-left: 30px;
+}
+
+.item-name i:after {
+    position: absolute;
+    content: "";
+    top: -13px;
+    left: -17px;
+    right: 0;
+    bottom: 0;
+    transform: rotate(45deg);
+    padding: 30px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    z-index: 1;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.item-name i:hover::after {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.border-abso:nth-of-type(3) .item-name i:after {
+    top: -12px;
+    left: -14px;
+}
+.border-abso:nth-of-type(4) .item-name i:after {
+    top: -12px;
+    left: -15px;
+}
+
+.border-abso:nth-of-type(5) .item-name i:after {
+    top: -12px;
+    left: -9px;
+}
+
+.border-abso:nth-of-type(6) .item-name i:after {
+    top: -11px;
+    left: -16px;
+}
+
+.border-abso:nth-of-type(7) .item-name i:after {
+    top: -11px;
+    left: -13px;
+}
+
+.border-abso:nth-of-type(8) .item-name i:after {
+    top:  0px;
+    left: -11px;
+    max-width: 36px;
+    max-height: 36px;
+}
+
+.border-abso:nth-of-type(8) .item-cont,
+.border-abso:nth-of-type(8) .item-cont p {
+    margin-left: 0;
+}
+
+.border-abso:nth-of-type(9) .item-name i:after {
+    top: -11px;
+    left: -14px;
+}
+
+.border-abso:nth-of-type(10) .item-name i:after {
+    left: -15px;
+}
+
+.border-abso:nth-of-type(11) .item-name i:after {
+    left: -12px;
+}
+
+.border-abso:nth-of-type(12) .item-name i:after {
+    left: -19px;
+}
+
+.border-abso:last-child .section-skill-item:after {
+    border: none;
+}
+
+.item-cont {
+    margin-left: 15px;
+    text-align: center !important;
+    width: 100%;
+}
+
+.item-cont span{
+    font-weight: 700;
+    color: #292929;
+    width: 100%;
+}
+
+.item-cont p {
+    margin-left: 30px;
+    text-align: justify !important;
+}
+
 .skills {
     margin-top: 100px;
     background-color: #fafafa;
@@ -321,53 +565,8 @@ body {
     margin-bottom: 20px;
 }
 
-.featured-box,
-.featured-box .col-1,
-.featured-box .col-11 {
-    margin: 0;
-    padding: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .skills .col-11 {
     margin-left: 15px;
-}
-
-.featured-box {
-    margin-bottom: 5px;
-    font-size: 14px;
-}
-
-.else-card {
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    background: #fff;
-    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
-    padding: 30px;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.else-card:hover {
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    cursor: pointer;
-    -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
-}
-
-.else-card-des h1 {
-    padding-top: 20px;
-    font-size: 26px;
-}
-
-.else-card-des h2 {
-    font-size: 14px;
 }
 
 .else {
