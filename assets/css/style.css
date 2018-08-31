@@ -1,6 +1,5 @@
 /* Header
 ---------------------------------*/
-
 header {
     background-image: url(../image/pw_maze_black_2X.png);
     height: 100vh;
@@ -70,15 +69,14 @@ header {
 
 /* Navigation
 ---------------------------------*/
-
 body {
     font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
     background-color: white !important;
-    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,.1);
-    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
 }
 
 .navbar-toggler {
@@ -106,7 +104,7 @@ body {
     border-radius: 1px;
 }
 
-.navbar-toggler .icon-bar + .icon-bar {
+.navbar-toggler .icon-bar+.icon-bar {
     margin-top: 4px;
 }
 
@@ -116,13 +114,13 @@ body {
     transition: ease all .2s;
 }
 
-.navbar-toggler:hover > .icon-bar:nth-child(2) {
+.navbar-toggler:hover>.icon-bar:nth-child(2) {
     width: 22px;
     -webkit-transition: ease all .2s;
     transition: ease all .2s;
 }
 
-.navbar-toggler:active > .icon-bar:nth-child(2) {
+.navbar-toggler:active>.icon-bar:nth-child(2) {
     width: 22px;
     -webkit-transition: ease all .2s;
     transition: ease all .2s;
@@ -190,7 +188,6 @@ body {
 
 /* About me
 ---------------------------------*/
-
 .about-me {
     padding-top: 100px;
     background-color: white;
@@ -217,8 +214,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.image {
+    background-image: url(../image/profile-pic-bg.png);
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0 100%;
+}
+
 .image img {
-    min-width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .about-me-hello {
@@ -277,12 +288,10 @@ body {
 .margins {
     margin: 0;
     padding: 40px;
-
 }
 
 /* Skills
 ---------------------------------*/
-
 .section-skill {
     margin-top: 100px;
     padding-top: 100px;
@@ -341,8 +350,8 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    -webkit-box-shadow: 0 18px 32px 0 rgba(0,0,0,.03);
-            box-shadow: 0 18px 32px 0 rgba(0,0,0,.03);
+    -webkit-box-shadow: 0 18px 32px 0 rgba(0, 0, 0, .03);
+    box-shadow: 0 18px 32px 0 rgba(0, 0, 0, .03);
     z-index: 1;
 }
 
@@ -403,7 +412,7 @@ body {
     padding: 0;
 }
 
-.item-name i{
+.item-name i {
     position: relative;
     font-size: 36px;
     margin-left: 30px;
@@ -424,7 +433,7 @@ body {
     -o-transform: rotate(45deg);
     z-index: 1;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
     transition: all .3s;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -445,7 +454,7 @@ body {
     -ms-transition: all .3s;
     -o-transition: all .3s;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -457,6 +466,7 @@ body {
     top: -12px;
     left: -14px;
 }
+
 .border-abso:nth-of-type(4) .item-name i:after {
     top: -12px;
     left: -15px;
@@ -478,7 +488,7 @@ body {
 }
 
 .border-abso:nth-of-type(8) .item-name i:after {
-    top:  0px;
+    top: 0px;
     left: -11px;
     max-width: 36px;
     max-height: 36px;
@@ -516,7 +526,7 @@ body {
     width: 100%;
 }
 
-.item-cont span{
+.item-cont span {
     font-weight: 700;
     color: #292929;
     width: 100%;
@@ -622,7 +632,6 @@ body {
 
 /* Portfolio
 ---------------------------------*/
-
 .portfolio {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -714,7 +723,6 @@ body {
 
 /* Motivation
 ---------------------------------*/
-
 .motivation {
     height: 100vh;
     background-image: url(../image/light-bulb-1246043_1920.jpg);
@@ -737,7 +745,6 @@ body {
 
 /* Hire
 ---------------------------------*/
-
 .hire {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -765,10 +772,8 @@ body {
     font-size: 18px;
 }
 
-
 /* footer
 ---------------------------------*/
-
 footer h1 {
     font-family: 'Open Sans', sans-serif;
 }

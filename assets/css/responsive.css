@@ -15,6 +15,7 @@
         font-size: 100px;
         letter-spacing: 0;
     }
+
     .section-skill-item {
         max-height: 220px;
     }
@@ -24,27 +25,32 @@
     .section-skill-item {
         -webkit-box-orient: vertical !important;
         -webkit-box-direction: normal !important;
-            -ms-flex-direction: column !important;
-                flex-direction: column !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
         max-height: 450px;
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
     }
+
     .item-name {
         left: -13px;
         bottom: -21px;
         position: relative;
     }
+
     .item-cont p,
     .item-cont {
         margin: 0 !important;
     }
+
     .item-cont {
         padding-top: 60px;
     }
+
     .border-abso:nth-of-type(8) .item-name i:after {
         left: 0px;
     }
+
     .item-name i img {
         left: -4px;
     }
@@ -63,7 +69,7 @@
     .border-abso:nth-of-type(odd) .section-skill-item:after {
         display: none;
     }
-    
+
     .border-abso:nth-of-type(even) .section-skill-item:after {
         display: none;
     }
@@ -75,17 +81,21 @@
         padding-top: 10px;
         border-top: 1px solid rgba(128, 128, 128, 0.2);
     }
+
     .head h1 {
         font-size: 40px;
     }
+
     .head p {
         font-size: 14px;
     }
+
     .else-card,
     .else-card:hover {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+
     .motivation h2 {
         font-size: 40px;
     }
@@ -107,15 +117,19 @@
         -webkit-transform: none;
         transform: none;
     }
+
     .navbar-nav {
         text-align: center !important;
     }
+
     .navbar-brand {
         margin-top: 3px;
     }
+
     .navbar-brand span {
         font-size: 21px;
     }
+
     .navbar-brand p {
         font-size: 14px;
     }
@@ -127,6 +141,7 @@
     .background-text {
         display: none;
     }
+
     html {
         overflow-x: hidden;
     }
