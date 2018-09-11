@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Playfair+Display|Open+Sans:800" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/progressively.css">
 </head>
 
 <body>
@@ -78,7 +79,9 @@
                         <div class="no-padding row">
                             <div class="no-padding col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                                 <div class="anim-b image">
-                                    <img src="assets/image/person.jpeg" alt="">
+                                    <img class="progressive__img progressive--not-loaded"  data-progressive="assets/image/person.jpeg"
+                                    src="assets/image/person_low.jpeg"
+                                    alt="">
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
@@ -266,7 +269,9 @@
                     <div class="container">
                         <div class="row project-card anim-b">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-image d-flex justify-content-center align-items-center anim-b">
-                                <img src="assets/image/macbookgrey_front.png" alt="">
+                                <img class="progressive__img progressive--not-loaded"  data-progressive="assets/image/macbookgrey_front.png"
+                                src="assets/image/macbookgrey_front-min.png"
+                                alt="">
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-info">
                                 <h3 class="anim-li">Responsive shop site with blog and CMS system</h3>
@@ -294,7 +299,9 @@
                     <div class="container">
                         <div class="row project-card anim-b">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-images d-flex justify-content-center align-items-center anim-b">
-                                <img src="assets/image/short.png" alt="">
+                                <img class="progressive__img progressive--not-loaded"  data-progressive="assets/image/short.png"
+                                src="assets/image/short-min.png"
+                                alt="">
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-info d-flex flex-column justify-content-center align-items-center">
                                 <h3 class="anim-li">Short link application</h3>
@@ -318,7 +325,9 @@
                     <div class="container">
                         <div class="row project-card anim-b">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-images d-flex justify-content-center align-items-center anim-b">
-                                <img src="assets/image/notes.png" alt="">
+                                <img class="progressive__img progressive--not-loaded"  data-progressive="assets/image/notes.png"
+                                src="assets/image/notes-min.png"
+                                alt="">
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-info d-flex flex-column justify-content-center align-items-center">
                                 <h3 class="anim-li">Notes application</h3>
@@ -342,7 +351,9 @@
                     <div class="container">
                         <div class="row project-card anim-b">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-images d-flex justify-content-center align-items-center anim-b">
-                                <img src="assets/image/tracker.png" alt="">
+                                <img class="progressive__img progressive--not-loaded"  data-progressive="assets/image/tracker.png"
+                                src="assets/image/tracker-min.png"
+                                alt="">
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-info d-flex flex-column justify-content-center align-items-center">
                                 <h3 class="anim-li">JS Issue Tracker</h3>
@@ -365,7 +376,9 @@
                     <div class="container">
                         <div class="row project-card anim-b">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-images d-flex justify-content-center align-items-center anim-b">
-                                <img src="assets/image/cal.png" alt="">
+                                <img class="progressive__img progressive--not-loaded"  data-progressive="assets/image/cal.png"
+                                src="assets/image/cal-min.png"
+                                alt="">
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 project-info d-flex flex-column justify-content-center align-items-center">
                                 <h3 class="anim-li">Calculator</h3>
@@ -445,6 +458,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script src="assets/js/ScrollReveal.js"></script>
+    <script src="assets/js/progressively.js"></script>
     <script type="text/javascript">
         // Configuration for ScrollReveal
         window.sr = ScrollReveal();

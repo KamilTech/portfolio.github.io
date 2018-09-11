@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    progressively.init();
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
 
